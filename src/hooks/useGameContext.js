@@ -57,7 +57,7 @@ const useGameContext = () => {
   };
 
   const handleRestart = () => {
-    setChances(8);
+    setChances(12);
     setFlippedCards([]);
     setCards(generateCards());
     toast.success("Jogo reiniciado!");

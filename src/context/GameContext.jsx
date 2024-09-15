@@ -23,7 +23,7 @@ const generateCards = () => {
 export const GameProvider = ({ children }) => {
   const [cards, setCards] = useState(generateCards());
   const [flippedCards, setFlippedCards] = useState([]);
-  const [chances, setChances] = useState(100);
+  const [chances, setChances] = useState(12);
 
   const GameValues = {
     cards,
